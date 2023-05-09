@@ -18,3 +18,9 @@ Feature: Product
     Given I set GET api endpoint for get product by ID
     When I send GET HTTP request for get product by ID
     Then I receive valid HTTP response code 200
+
+  Scenario: DELETE - As admin I have be able to delete product
+    Given I set DELETE api endpoint
+    When I send DELETE HTTP request
+    Then I receive valid HTTP response code 200
+

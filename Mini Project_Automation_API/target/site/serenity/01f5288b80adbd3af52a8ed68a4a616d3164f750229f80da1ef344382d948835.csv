@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Product","GET - As admin I have be able to get all products","SUCCESS","2023-05-08T18:35:13.1456256+07:00[Asia/Jakarta]","0.0","20.06"
-"Product","POST - As admin I have be able to create a new product","SUCCESS","2023-05-08T18:35:33.247217+07:00[Asia/Jakarta]","0.0","7.09"
-"Product","GET - As admin I have be able to get products by ID","SUCCESS","2023-05-08T18:35:40.4604143+07:00[Asia/Jakarta]","0.0","0.89"
+"Product","GET - As admin I have be able to get all products","SUCCESS","2023-05-09T10:19:57.227697+07:00[Asia/Jakarta]","0.0","22.08"
+"Product","POST - As admin I have be able to create a new product","SUCCESS","2023-05-09T10:20:19.4801142+07:00[Asia/Jakarta]","0.0","14.6"
+"Product","GET - As admin I have be able to get products by ID","SUCCESS","2023-05-09T10:20:34.1451895+07:00[Asia/Jakarta]","0.0","0.79"
+"Product","DELETE - As admin I have be able to delete product","SUCCESS","2023-05-09T10:20:34.9852968+07:00[Asia/Jakarta]","0.0","0.68"

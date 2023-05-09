@@ -3,3 +3,4 @@ starter\product\Get.class
 starter\stepdefinitions\ProductSteps.class
 starter\product\GetByID.class
 starter\product\Post.class
+starter\product\Delete.class
