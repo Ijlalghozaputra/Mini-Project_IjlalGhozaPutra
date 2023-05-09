@@ -8,7 +8,7 @@ import net.thucydides.core.annotations.Steps;
 import starter.product.Get;
 import starter.product.GetByID;
 import starter.product.Post;
-
+import starter.product.Delete;
 public class ProductSteps {
     @Steps
     Get get;
@@ -18,6 +18,9 @@ public class ProductSteps {
 
     @Steps
     GetByID getByID;
+
+    @Steps
+    Delete delete;
 
     @Given("I set GET api endpoint")
     public void setApiEndpoint(){
@@ -57,5 +60,15 @@ public class ProductSteps {
     @When("I send GET HTTP request for get product by ID")
     public void sendGetHttpRequestForGetProductByID(){
         getByID.sendGetHttpRequestForGetProductByID();
+    }
+
+    @Given("I set DELETE api endpoint")
+    public void setDeleteApiEndpoint(){
+        delete.setDeleteApiEndpoint();
+    }
+
+    @When("I send DELETE HTTP request")
+    public void sendDeleteHttpRequest(){
+        delete.sendDeleteHttpRequest();
     }
 }
