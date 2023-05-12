@@ -1,0 +1,214 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 196.015 s <<< FAILURE! - in starter.CucumberTestSuite
+As a user I want login to altashop.login to altashop account  Time elapsed: 57.166 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
+As a user I want login to altashop.login without email account  Time elapsed: 13.104 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
+As a user I want login to altashop.login without password account  Time elapsed: 8.346 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
+As a user I want login to altashop.login with inccorrect accoount  Time elapsed: 8.981 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
+As a user I want login to altashop.login without input account  Time elapsed: 7.165 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
+As user I want to register for Altashop account.I want register Altashop account #1  Time elapsed: 5.069 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
+As user I want to register for Altashop account.I register Altashop account without input username  Time elapsed: 7.189 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
+As user I want to register for Altashop account.I register Altashop account without input email  Time elapsed: 11.451 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
+As user I want to register for Altashop account.I register Altashop account without input password  Time elapsed: 4.806 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
+As user I want to register for Altashop account.I want register Altashop account #2  Time elapsed: 4.125 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+See below for more details.
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 111
+Current browser version is 113.0.5672.93 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'DESKTOP-CNARK74', ip: '192.168.56.1'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*], extensions: []}}}]
+
