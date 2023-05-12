@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Product","GET - As admin I have be able to get products by ID","SUCCESS","2023-05-09T10:20:34.1451895+07:00[Asia/Jakarta]","0.0","0.79"
-"Product","DELETE - As admin I have be able to delete product","SUCCESS","2023-05-09T10:20:34.9852968+07:00[Asia/Jakarta]","0.0","0.68"
+"Product","DELETE - As admin I have be able to delete product","SUCCESS","2023-05-09T20:58:02.883813+07:00[Asia/Jakarta]","0.0","0.99"
