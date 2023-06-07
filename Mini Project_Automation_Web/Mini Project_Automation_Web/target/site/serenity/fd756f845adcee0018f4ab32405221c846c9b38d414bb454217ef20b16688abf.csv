@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As a user I want login to altashop","login to altashop account","ERROR","2023-05-12T21:59:11.6451201+07:00[Asia/Jakarta]","0.0","56.19"
-"As a user I want login to altashop","login without email account","ERROR","2023-05-12T22:00:08.951506+07:00[Asia/Jakarta]","0.0","12.94"
-"As a user I want login to altashop","login without password account","ERROR","2023-05-12T22:00:21.9564566+07:00[Asia/Jakarta]","0.0","8.29"
-"As a user I want login to altashop","login with inccorrect accoount","ERROR","2023-05-12T22:00:30.3081653+07:00[Asia/Jakarta]","0.0","8.86"
-"As a user I want login to altashop","login without input account","ERROR","2023-05-12T22:00:39.9839512+07:00[Asia/Jakarta]","0.0","7.11"

@@ -1,0 +1,11 @@
+test\alta\hooks\BaseDriverHooks.class
+test\alta\pages\LogoutScreen.class
+test\alta\stepdefinitions\RegisterSteps.class
+test\alta\pageobject\BasePageObject.class
+test\alta\pages\LoginScreen.class
+test\alta\stepdefinitions\LoginSteps.class
+test\alta\stepdefinitions\LogoutSteps.class
+test\alta\pages\RegisterScreen.class
+CucumberTestSuite.class
+test\alta\stepdefinitions\BuySteps.class
+test\alta\pages\BuyScreen.class
